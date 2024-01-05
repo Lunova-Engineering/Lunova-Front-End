@@ -1,0 +1,40 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.form-header {
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: 600; /* Semi-bold */
+    color: #333; /* A dark grey that is softer than black */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    letter-spacing: 0.5px; /* Adds a bit of spacing between letters */
+    margin-bottom: 20px; /* Space below the header */
+    text-align: center; /* Centers the text */
+}
+
+
+.input-field {
+    width: 100%; /* Make the input fields match the box width */
+}
+
+.form-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+.border-error {
+    border-color: red !important;
+}
+
+.border-success {
+    border-color: green !important;
+}

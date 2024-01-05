@@ -1,0 +1,21 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    color: #ccc; /* Light grey color, you can adjust as needed */
+    height: 100%; /* Full height of the viewport */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-container .fa-space-shuttle {
+    color: #9b59b6; /* Adjust the color as needed */
+    margin: 20px 0;
+    font-size: 10em; /* Scale up the icon */
+}
+
+.huge-icon {
+    font-size: 20vw; /* or any size you want */
+}

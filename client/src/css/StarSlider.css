@@ -1,0 +1,23 @@
+/* StarSlider.css */
+.slider-container {
+    position: relative;
+}
+
+.slider-label {
+    position: absolute;
+    /* Adjust the top value as needed to align with your slider */
+    top: -25px;
+}
+
+.slider-label:first-of-type {
+    left: 0;
+}
+
+.slider-label:last-of-type {
+    right: 0;
+}
+
+/* This ensures that the slider's thumb doesn't overlap the labels on the extremes */
+.form-range {
+    padding: 0 1%;
+}

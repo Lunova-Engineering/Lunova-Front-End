@@ -1,0 +1,28 @@
+.navbar {
+    background: linear-gradient(to right, rgba(50, 50, 50, 1) 0%, rgba(50, 50, 50, .40) 100%);
+}
+
+.nav-link {
+    opacity: .9;
+    color: #d9d9d9;
+    text-shadow: 1px 1px 2px #000;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* Use the same duration for all transitions, remove font-weight transition */
+    transition: .5s;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    color: #E0E0E0;
+    text-shadow: 0 0 10px #E0E0E0;
+    transition: opacity 3s ease-out;
+    /* No need to specify font-weight here */
+}
+
+.nav-link.active {
+    color: #E0E0E0 !important;
+}
+
+.fa-home-icon-bounce:hover {
+}

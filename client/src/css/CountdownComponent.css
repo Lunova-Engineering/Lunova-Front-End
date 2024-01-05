@@ -1,0 +1,41 @@
+.countdown-container {
+    background-color: rgba(50, 50, 50, 1); /* Semi-transparent white background */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    padding: 20px; /* Some padding around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+    max-width: 600px; /* Maximum width of the container */
+    margin: 40px auto; /* Centering the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .98;
+}
+
+.countdown {
+    color: #fff; /* White text color */
+    text-align: center;
+    display: flex;
+    gap: 20px; /* Gap between units */
+}
+
+.time-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-number {
+    font-size: 2rem; /* Larger font size for the countdown numbers */
+    font-weight: bold;
+    color: #fff;
+}
+
+.countdown-label {
+    color: #aaa; /* Lighter color for the labels */
+    font-size: 1rem;
+}
+
+.countdown-header {
+    color: #d0d0d0;
+    font-size: 3rem;
+}

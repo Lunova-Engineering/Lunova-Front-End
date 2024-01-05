@@ -1,0 +1,9 @@
+.dropdown-toggle:after {
+    display: none;
+}
+
+.no-highlight.active {
+    /* Your styles to 'unhighlight' the item, for example: */
+    background-color: inherit;
+    color: inherit;
+}
