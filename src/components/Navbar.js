@@ -22,6 +22,7 @@ function Navbar() {
                         <FontAwesomeIcon className="fa-home-icon-bounce" icon={faHouse} beatFade size="xl" style={{color: "#ebebeb",}} />
                     </NavLink> </li>
                     <li className="nav-item px-2"><NavLink to="/moonbot" className="nav-link">Moon Bot</NavLink> </li>
+                    <li className="nav-item px-2"><NavLink to="/moonbot" className="nav-link">About Us</NavLink> </li>
                     {/*<li className="nav-item px-2"><NavLink to="/moon-bot" className="nav-link">Moon Bot</NavLink> </li>*/}
 {/*                    <li className="nav-item px-2"><a className="nav-link" href="">Github</a> </li>
                     <li className="nav-item px-2"><a className="nav-link" href="">Developers</a> </li>*/}
