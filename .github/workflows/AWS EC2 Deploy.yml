@@ -39,5 +39,10 @@ jobs:
         username: ${{ secrets.EC2_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.EC2_PORT }}
-        source: "build/"
-        target: "/home/ec2-user/Lunova/"
+        script: |
+          cd /home/ec2-user/Lunova/front-end/
+          git pull origin main
+          npm install
+          npm run build
+        #source: "build/"
+        #target: "/home/ec2-user/Lunova/"
