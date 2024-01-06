@@ -1,0 +1,9 @@
+/* Profile.css */
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+/* Add any additional custom styles that Bootstrap doesn't cover */
