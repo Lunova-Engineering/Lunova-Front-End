@@ -1,12 +1,9 @@
 import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Navbar.css';
-import brand from '../assets/brand.png'
-import logo from '../assets/newlogo.png';
 import {NavLink} from "react-router-dom";
 import {useAuth} from "./AuthProvider";
 import ProfileIcon from "./ProfileIcon";
-import {faHome} from '@fortawesome/free-regular-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHouse} from "@fortawesome/free-solid-svg-icons";
 

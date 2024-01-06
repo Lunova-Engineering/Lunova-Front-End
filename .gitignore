@@ -1,9 +1,9 @@
 # Dependencies
-/client/node_modules
+/node_modules
 
 # Build
-/client/build
-/client/dist
+/build
+/dist
 
 # Misc
 .DS_Store
@@ -25,7 +25,7 @@ yarn-error.log*
 *.iws
 
 # Optional: If you have specific personal configs you don't want to share
-/*.json
+/#*.json
 
 # System Files
 Thumbs.db
@@ -33,4 +33,3 @@ Desktop.ini
 
 # Storybook build outputs
 /storybook-static
-
